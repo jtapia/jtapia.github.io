@@ -26,6 +26,7 @@ plugins:
 # Reading Files
 include:
   - _pages
+  - _layouts
 
 author:
   name: 'Jonathan Tapia'
