@@ -9,6 +9,7 @@ feed_update_period: daily
 feed_update_frequency: 1
 github_username:  jtapia
 
+remote_theme: 'mmistakes/minimal-mistakes@4.19.2'
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: default
 search: true
