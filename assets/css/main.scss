@@ -2,30 +2,4 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "custom/sidebar"; // main partials
-
-
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  height: 36px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    display: block;
-    width: 100%;
-    max-height: 120px;
-    border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
-  }
-}
+@import "sidebar"; // main partials
